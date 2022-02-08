@@ -10,7 +10,8 @@ const firebaseConfig = {
   storageBucket: "alt1-a8325.appspot.com",
   messagingSenderId: "967382561456",
   appId: "1:967382561456:web:9745403f58540a3d0a4175",
-  measurementId: "G-TQNP2DL5GB"
+  measurementId: "G-TQNP2DL5GB",
+  databaseURL: "https://alt1-a8325-default-rtdb.europe-west1.firebasedatabase.app/"
 };
 
 
