@@ -127,3 +127,9 @@ li > a {
 body {
   background-color: rgb(225, 225, 225);
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
