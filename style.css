@@ -112,6 +112,7 @@ li > a {
 .container {
   position: relative;
   font-family: Arial;
+  display: inline;
 }
 
 .text-block {
