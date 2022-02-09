@@ -146,7 +146,7 @@ a:link {
   font-family: 'Montserrat', sans-serif;
 }
 .slider {
-        width: 500px;
+        width: 100%;
         height: 300px;
         background-color: yellow;
         margin-left: auto;
@@ -156,7 +156,7 @@ a:link {
         overflow: hidden;
       }
 .image-container {
-        width: 1500px;
+        width: 100%;
         background-color: pink;
         height: 300px;
         clear: both;
@@ -167,7 +167,7 @@ a:link {
         transition: left 2s;
       }
 .slide {
-        float: left;
+        float: center;
         margin: 0px;
         padding: 0px;
         position: relative;
@@ -175,17 +175,17 @@ a:link {
 #slide-1:target ~ .image-container {
         left: 0px;
       }
-#slide-2:target ~ .image-container {
+      #slide-2:target ~ .image-container {
         left: -500px;
       }
-#slide-3:target ~ .image-container {
+      #slide-3:target ~ .image-container {
         left: -1000px;
       }
-.buttons {
+      .buttons {
         position: relative;
         top: -20px;
       }
-.buttons a {
+      .buttons a {
         display: inline-block;
         height: 15px;
         width: 15px;
