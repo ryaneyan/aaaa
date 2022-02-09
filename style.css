@@ -21,7 +21,7 @@
     align-items: center;
     height: 80px;
     padding: 0;
-    max-width: 1000px;
+    max-width:;
     margin: 0 auto;
 }
 
@@ -87,16 +87,20 @@ li > a {
 
 .left {
     margin-right: 4px;
+  display: block;
 }
 .left2 {
-    margin-right: 4px;
+    margin-right: 300px;
+  display: block;
 }
 
 .right {
     margin-left: 4px;
+  display: block;
 }
 .right2 {
-    margin-left: 300px;
+    margin-right: 4px;
+  display: block;
 }
 
 .sub-nav-box {
