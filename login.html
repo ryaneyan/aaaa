@@ -94,7 +94,8 @@ button:hover {
       <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
     </label>
     
-    <p>By creating an account you agree to our <a href="terms.html" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    <p>By creating an account you agree to our <a href="terms.html" style="color:dodgerblue">Terms &
+    Privacy</a>.</p>
 
     <div class="clearfix">
       <button type="button" class="cancelbtn">Cancel</button>
@@ -103,5 +104,41 @@ button:hover {
   </div>
 </form>
 
-</body>
+  <br/>
+  <!DOCTYPE html>
+<html>
+  <head>
+    <div class="center">
+      <br />
+      <br />
+      <label>Username:</label>
+      <input oninput="this.value=this.value.toLowerCase()" id="username" type=""/>
+      <!–– makes all input lowercase and assigns a variable -->
+      <br />
+      <br />
+      <label>Passcode:</label>
+      <input type="password" id="password" />
+      <br />
+      <br />
+      <button class="button" onclick="onSubmit()">
+        Login
+      </button>
+    </div>
+  </head>
 </html>
+  </body>
+  
+<script>
+  function onSubmit() {
+    if (
+      (document.getElementById("password").value == "123") &
+      (document.getElementById("username").value == "ryan")
+    ) {
+      window.location.href = "contact.html";
+    } else {
+      {
+        window.location.href = "error.html";
+      }
+    }
+  }
+  </script>
