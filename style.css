@@ -66,14 +66,15 @@ li > a {
 
 .sub-nav {
     background: #f7f7f7;
-    border-radius: 5px;
+    border-radius: ;
     box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
     display: none;
     left: 0;
     padding: 16px;
     position: absolute;
     top: 100%;
-    width: 520px;
+    width: 100%;
+  flex-direction: row;
   
 }
 
@@ -105,16 +106,16 @@ li > a {
 
 .sub-nav-box {
     background: #ffffff;
-    border-radius: 3px;
+    border-radius: ;
     display: flex;
     flex: 0 1 auto;
     flex-direction: column;
     font-size: 14px;
-    justify-content: center;
+    justify-content: left;
     margin: 0;
     min-height: 100px;
     padding: 24px 14px 24px 96px;
-    position: relative;
+    position: left;
     transition: .2s all ease-in-out;
     text-decoration: none;
 }
