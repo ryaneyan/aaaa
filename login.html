@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
+  <p>(Please input the details specified in brackets in the placeholders)</p>
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box}
-
+  
   
 /* Full-width input fields */
 input[type=text], input[type=password] {
@@ -99,18 +100,4 @@ button:hover {
 </html>
   
   
-<script>
-  function onSubmit() {
-    if (
-      (document.getElementById("password").value == "password") &
-      (document.getElementById("username").value == "sample@gmail.com")
-    ) {
-      window.location.href = "account.html";
-    } else {
-      {
-        alert("wrong keyword entry");
-        return false;
-      }
-    }
-  }
-  </script>
+  <script src="login.js"> </script>
