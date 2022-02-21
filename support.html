@@ -72,6 +72,14 @@ button:hover {
   .cancelbtn, .signupbtn {
      width: 100%;
   }
+  
+.textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  background: #f1f1f1
+}
+  
 }
 </style>
   <body>
@@ -93,8 +101,12 @@ button:hover {
       <!-- Below is a div element using the 'content' class which will be used for main bodies of text -->
       <div class="content">
         <!-- The 'span' element below is so you can have differently styled text in the same line -->
-        <h2><span style="color: #b30000">Contact</span></h2>
-
+        <h2><span >Contact Page</span></h2>
+        <br />
+        <p>
+          Please inform us of any feedback you have here
+        </p>
+        <br />
         <input type="text" placeholder="Name" id="fName" />
 
         <br />
@@ -107,12 +119,13 @@ button:hover {
 
 
         <input type="text" placeholder="Email" id="email" />
-
         <br />
         <br />
-
-        <textarea rows="4" cols="50" placeholder="Comment" id="comment"></textarea>
-
+        <br />
+ <div align = "center" >
+        <textarea  rows="10" cols="200" placeholder=" Comment" id="comment"></textarea>
+        </div>
+        <br />
         <br />
         <br />
 
