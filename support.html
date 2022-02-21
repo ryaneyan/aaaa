@@ -86,12 +86,14 @@ button:hover {
     <head>
       <!-- Below the style code is opened so we can have styling built-into the html file -->
       <style>
+        
         /* The code below is mainly so we can vary the background from html to html file, changing the colour and size of background */
         body {
           background-color: #8e8e8e;
           background-size: cover;
         }
       </style>
+      
       <!-- Below the stylesheet (style.css) is referenced for the rest of the page's styling -->
       <link rel="stylesheet" href="style.css" />
 
@@ -107,6 +109,16 @@ button:hover {
           Please inform us of any feedback you have here
         </p>
         <br />
+        <form action="/action_page.php">
+  <input type="checkbox" >
+          <label> Website Issue</label><br>
+  <input type="checkbox" >
+  <label>  Account Issue</label><br>
+  <input type="checkbox">
+  <label>  Product Issue</label><br><br>
+</form>
+        <br />
+
         <input type="text" placeholder="Name" id="fName" />
 
         <br />
