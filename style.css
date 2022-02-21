@@ -73,8 +73,8 @@ li > a {
     padding: 16px;
     position: absolute;
     top: 100%;
-    width: 100%;
-  flex-direction: row;
+    width: 560px;
+  flex-direction: column;
   
 }
 
