@@ -12,10 +12,6 @@ section {
 
 .footer-distributed {
   background-color: #fff;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-  box-sizing: border-box;
-  width: 100%;
-  text-align: left;
   font: normal 16px sans-serif;
   padding: 45px 50px;
 }
@@ -23,7 +19,6 @@ section {
 .footer-distributed .footer-left p {
   color: #8f9296;
   font-size: 14px;
-  margin: 0;
 }
 /* Footer links */
 
@@ -32,23 +27,11 @@ section {
   font-weight: bold;
   color: #000000;
   margin: 0 0 10px;
-  padding: 0;
-  transition: ease .25s;
-}
-
-.footer-distributed p.footer-links a {
-  display: inline-block;
-  line-height: 1.8;
-  text-decoration: none;
-  color: inherit;
-  transition: ease .25s;
 }
 
 .footer-distributed .footer-links a:before {
   content: "·";
   font-size: 20px;
   left: 0;
-  color: #fff;
-  display: inline-block;
-  padding-right: 5px;
+  color: #000000;
 }
