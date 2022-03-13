@@ -62,6 +62,10 @@ li > a {
   font-weight: bold;
 }
 
+.iframe {
+  border: 5px solid #555555;
+}
+
 .sub-nav {
   background: #f7f7f7;
   border-radius: ;
@@ -97,6 +101,10 @@ li > a {
 }
 .right2 {
   margin-left: 650px;
+  display: block;
+}
+.right3 {
+  margin-left: 65%;
   display: block;
 }
 
