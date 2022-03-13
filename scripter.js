@@ -3,16 +3,16 @@
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
- const firebaseConfig = {
-    apiKey: "AIzaSyCS9haigEMVHKxfMuAYZXtLtInUu8Oi4qQ",
-    authDomain: "alt1-732a0.firebaseapp.com",
-    projectId: "alt1-732a0",
-    storageBucket: "alt1-732a0.appspot.com",
-    messagingSenderId: "358627288961",
-    appId: "1:358627288961:web:5d0d5d5103aba16d46aa80",
-    measurementId: "G-T07CRQZ26C"
-  };
-
+const firebaseConfig = {
+  apiKey: "AIzaSyCS9haigEMVHKxfMuAYZXtLtInUu8Oi4qQ",
+  authDomain: "alt1-732a0.firebaseapp.com",
+  databaseURL: "https://alt1-732a0-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "alt1-732a0",
+  storageBucket: "alt1-732a0.appspot.com",
+  messagingSenderId: "358627288961",
+  appId: "1:358627288961:web:5d0d5d5103aba16d46aa80",
+  measurementId: "G-T07CRQZ26C"
+};
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
@@ -35,6 +35,11 @@ function insertRecord() {
   surnameBox.value = "";
   surnameBox.focus();
   
+  const ageBox = document.getElementById("age");
+  const ageBoxValue = ageBox.value;
+  ageBox.value = "";
+  ageBox.focus();
+  
   const emailBox = document.getElementById("email");
   const emailBoxValue = emailBox.value;
   emailBox.value = "";
@@ -47,6 +52,6 @@ function insertRecord() {
 
 
 const data = myDB.push();
-data.set({name: nameBoxValue,surname: surnameBoxValue,email:emailBoxValue,comment: commentBoxValue})
+data.set({name:nameBoxValue, surname:surnameBoxValue,age: ageBoxValueemail:emailBoxValue, comment:commentBoxValue})
 
 }
