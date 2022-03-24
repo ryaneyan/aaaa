@@ -41,6 +41,11 @@ ul {
   font-size: 13px;
   line-height: 21px;
 }
+caption {
+  font-size: 13px;
+  line-height: 21px;
+  
+}
 
 li:first-child {
   margin-left: 0;
