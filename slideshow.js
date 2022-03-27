@@ -12,3 +12,5 @@ function carousel() {
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 4000); // Change image every 4 seconds
 }
+
+//this creates a function that when timed slides the image off screen
