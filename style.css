@@ -1,6 +1,14 @@
 h2{
   text-align: center;
 }
+
+h4.faq{
+    margin-left: 20px;
+}
+p.faq{
+    margin-left: 20px;
+}
+
 P.block {
     margin-left: auto;
     margin-right: auto;
